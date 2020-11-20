@@ -31,7 +31,8 @@ namespace Warehouse_DB.Data
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 // optionsBuilder.UseSqlite("Data Source=E:\\Учёба\\БД\\Warehouse_DB\\warehouse.db");
                 // optionsBuilder.UseSqlite("Data Source=warehouse.db");
-                optionsBuilder.UseSqlServer("Data Source (localdb)\\MSSQLLocalDB;Initial Catalog Warehouse_db");
+                // optionsBuilder.UseSqlServer("Data Source (localdb)\\MSSQLLocalDB;Initial Catalog Warehouse_db");
+                optionsBuilder.UseSqlServer("Data Source=DESKTOP-QICI1AI\\SQLEXPRESS;Initial Catalog=Warehouse_db;Integrated Security=True");
             }
         }
 
